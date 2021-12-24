@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+html,body{
+    height: 100%;
+}
+.center {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+section.main{
+    width: 100%;
+    min-height: 100%;
+    background-image: url('teslabg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-around
+    ;
+}
+.logo{
+    position: relative;
+    top: -60px;
+}
+.logo img{
+    width: 400px;
+}
+.menu{
+    margin-top: 40px;
+}
+.menu a {
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 3px 5px;
+}
+.menu a:hover{
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.186) ;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    color: black;
+    letter-spacing: 1.2px;
+    font-size: 45px;
+}
+.title p{
+    color: whitesmoke;
+    margin-top: 10px;
+}
+.title p a {
+    color: whitesmoke;
+}
+.btn{
+    
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+.btn a {
+    margin: 0 10px;
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    
+}
